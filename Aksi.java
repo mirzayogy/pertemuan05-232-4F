@@ -10,8 +10,16 @@ public class Aksi {
         mirza.tampilkanInfo();
         mirza.create();
 
-        Mahasiswa yogy = new Mahasiswa();
+        Mahasiswa yogy = new Mahasiswa("Yogy","002",3.79,144);
         yogy.tampilkanInfo();
         yogy.create();
+
+        PersegiPanjang p = new PersegiPanjang();
+        p.panjang = 73;
+        p.lebar = 28;
+
+        p.menampilkanLuas();
+        System.out.println(p.menghitungLuas(93, 37));
+
     }
 }

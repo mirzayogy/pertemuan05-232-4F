@@ -4,6 +4,17 @@ public class Mahasiswa{
     double ipk;
     int jumlahSks;
 
+    Mahasiswa(){
+
+    }
+
+    Mahasiswa(String nama, String npm, double ipk, int jumlahSks){
+        this.nama = nama;
+        this.npm = npm;
+        this.ipk = ipk;
+        this.jumlahSks = jumlahSks;
+    }
+
     void tampilkanInfo(){
         System.out.println(nama);
         System.out.println(npm);
