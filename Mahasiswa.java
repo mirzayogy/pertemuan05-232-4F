@@ -12,10 +12,26 @@ public class Mahasiswa{
     }
 
     void create(){
-        System.out.println("INSERT INTO..");
+        System.out.println("INSERT INTO mahasiswa VALUES (" +
+            "'" + this.nama +"',"+
+            "'" + this.npm +"',"+
+            this.ipk +","+
+            this.jumlahSks +")");
     }
 
     void read(){
         System.out.println("SELECT * FROM mahasiswa");
+    }
+
+    void deleteAll(){
+        System.out.println("DELET FROM mahasiswa");
+    }
+
+    void delete(String npm){
+        System.out.println("DELETE FROM mahasiswa WHERE npm = " + npm);
+    }
+
+    void search(String keyword){
+        System.out.println("SELECT * FROM mahasiswa WHERE nama like %" + keyword +"%");
     }
 }
