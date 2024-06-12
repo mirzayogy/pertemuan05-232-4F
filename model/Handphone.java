@@ -16,7 +16,9 @@ public class Handphone {
     }
 
     public void setHarga(double harga) {
-        this.harga = harga;
+        if(harga>=100){
+            this.harga = harga;
+        }
     }
 
     public void setStok(int stok) {
@@ -35,3 +37,6 @@ public class Handphone {
         return this.stok;
     }
 }
+
+//API
+//Application Programming Interface
