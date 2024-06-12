@@ -23,3 +23,14 @@ public class Aksi {
 
     }
 }
+
+//Class
+//Atribut
+//Method
+//Object
+//Parameter
+//Constructor
+
+//1. Definisi
+//2. Menulis dalam Java
+//3. Mengenali dalam source code
