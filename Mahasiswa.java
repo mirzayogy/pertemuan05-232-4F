@@ -4,6 +4,8 @@ public class Mahasiswa{
     double ipk;
     int jumlahSks;
 
+
+    //Constructor
     Mahasiswa(){
 
     }
