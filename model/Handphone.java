@@ -11,6 +11,15 @@ public class Handphone {
         System.out.println(this.stok);
     }
 
+    public void info(int jumlahBaris){
+        int i=0;
+        while(i<jumlahBaris){
+            System.out.println(this.merk);
+            System.out.println(this.harga);
+            System.out.println(this.stok);
+        }
+    }
+
     public void setMerk(String merk){
         this.merk = merk;
     }
@@ -35,6 +44,30 @@ public class Handphone {
 
     public int getStok() {
         return this.stok;
+    }
+
+    public void delete(){
+
+    }
+
+    public void delete(int id){
+
+    }
+
+    public void read(){
+
+    }
+
+    public void read(String merk){
+
+    }
+
+    public void read(int ram){
+
+    }
+
+    public void read(String sistemOperasi, int i){
+        
     }
 }
 

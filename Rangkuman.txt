@@ -1,0 +1,10 @@
+1. class
+2. attribute/properties
+3. method
+4. membuat object
+5. constructor
+6. encapsulation (public/private/protected)
+7. getter and setter
+8. inheritance (extends)
+9. overloading
+10. overriding

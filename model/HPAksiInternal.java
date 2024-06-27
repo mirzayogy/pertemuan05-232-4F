@@ -15,5 +15,6 @@ public class HPAksiInternal {
         Smartphone s = new Smartphone();
         s.setMerk("Banana");
         s.connectInternet();
+
     }
 }
